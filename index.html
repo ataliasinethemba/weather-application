@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My Weather application</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <header>
+        <form class="weather-form">
+          <input
+            class="search-bar"
+            type="text"
+            id="search-input"
+            autofocus="on"
+            autocomplete="off"
+            placeholder="Enter a city"
+          />
+          <input class="submit-button" type="submit" value="Search" />
+        </form>
+      </header>
+      <hr />
+      <section>
+        <div class="weather-details">
+          <div class="city">
+            <h1>Paris</h1>
+
+            <div class="city-weather">
+              <p class="weather-breakdown">
+                <span id="weekday">Saturday</span>
+                <span id="current-hour">15</span>:<span id="current-minute"
+                  >51</span
+                >, moderate rain <br />
+
+                Humidity:
+                <span class="humidity-details"><strong>87%</strong></span
+                >, Wind:
+                <span class="wind-details"><strong>7.2km/h </strong></span>
+              </p>
+            </div>
+          </div>
+          <p class="weather-temp">
+            <span id="weather-icon">☀️</span> <span id="temperature">24</span>
+            <span id="deg-sign"> &deg;C</span>
+          </p>
+        </div>
+      </section>
+      <hr />
+      <footer>
+        <p>
+          This project was coded by
+          <a href="Sinethemba atalia">Sinethemba Atalia</a> and is
+          <a href="github">open sourced on Github</a> and
+          <a href="netlyfy.com">hosted by Netlify</a>.
+        </p>
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
